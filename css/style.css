@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root{
+  scroll-behavior: auto;
+}
+
+.home-section{
+  background-image: linear-gradient(rgba(214, 46, 51 , 0.6) , rgba(214, 46, 51 , 0.6)),url(../media/imgs/home-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.side-menu{
+  width: 0;
+  background-color: black;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.side-menu a{
+  transition: 0.4s;
+  color: white;
+}
+
+.side-menu a:hover,
+.side-menu a.active{
+  color: rgba(214, 46, 51, 0.4);;
+}
+
+.menu-toggler{
+  left: 0;
+}
+
+
+.content-section h3{
+  background-color: rgba(214, 46, 51 , 0.6);
+  padding: 10px;
+}
+
+/*------------------*/
+
+
+.slider-content{
+  display: none;
+  margin: 0;
+}
+
+.one{
+  display: block;
+}
+
+/* -------- counter section ---------*/
+
+.counter-section{
+  background-image: linear-gradient(rgba(214, 46, 52, 0.721) , rgba(214, 46, 52, 0.704)),url(../media/imgs/counter-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
