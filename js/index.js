@@ -60,7 +60,7 @@ function eventProc(){
      $('.secs .counter').html (seconds < 10 ? `0${seconds} S` : seconds + ` S`)
   
     if (dateDiff < 0) {
-      clearInterval(counter);
+      clearInterval(eventProc);
     }
 
 }
